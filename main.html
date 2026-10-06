@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chunk String</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="container">
+
+        <h1>Chunk String</h1>
+
+        <label for="inputString">Enter String:</label>
+        <input type="text" id="inputString" placeholder="Enter a string">
+
+        <label for="chunkLength">Chunk Length:</label>
+        <input type="number" id="chunkLength" placeholder="Enter chunk length" min="1">
+
+        <button onclick="createChunks()">Create Chunks</button>
+
+        <h2>Result</h2>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>
